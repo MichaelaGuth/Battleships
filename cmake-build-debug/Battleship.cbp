@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Battleship"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Battleship">
+				<Option output="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Battleship" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 Battleship"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Battleship/fast">
+				<Option output="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Battleship" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 Battleship/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/boards.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/boards.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/constants.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/coordinate.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/coordinate.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/error.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/game.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/game.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/interactions.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/interactions.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/main.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/my_tests.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/my_tests.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/player.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/player.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/print_GUI.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/print_GUI.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/ship.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/ship.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/utils.c">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/game/utils.h">
+			<Option target="Battleship"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Kimiko/CLionProjects/Battleships-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

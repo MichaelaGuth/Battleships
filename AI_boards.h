@@ -1,0 +1,22 @@
+//
+// Created by kimiko on 17.12.19.
+//
+#include "constants.h"
+
+#ifndef BATTLESHIP_AI_BOARDS_H
+#define BATTLESHIP_AI_BOARDS_H
+
+char BOARD_1[SIZE][SIZE] = {
+        {CARR,  CARR,   CARR,   CARR,   CARR,   EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY}, // 1
+        {EMPTY, EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY}, // 2
+        {EMPTY, EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  PATR,   EMPTY}, // 3
+        {EMPTY, EMPTY,  SUBM,   EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY}, // 4
+        {DEST,  EMPTY,  SUBM,   EMPTY,  EMPTY,  SUBM,   EMPTY,  EMPTY,  EMPTY,  EMPTY}, // 5
+        {DEST,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  SUBM,   EMPTY,  EMPTY,  BATT,   EMPTY}, // 6
+        {DEST,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  BATT,   EMPTY}, // 7
+        {EMPTY, EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  BATT,   EMPTY}, // 8
+        {EMPTY, PATR,   EMPTY,  EMPTY,  DEST,   DEST,   DEST,   EMPTY,  BATT,   EMPTY}, // 9
+        {EMPTY, EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY}  // 10
+};
+
+#endif //BATTLESHIP_AI_BOARDS_H
